@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошельки</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <div class="menu">
+                <a href="#">Главная</a>
+                <a href="#">Оплаты</a>
+                <a href="#">Кошельки</a>
+            </div>
+            <div class="email">alexadams@google.com</div>
+        <a class="logo" href="#"><img src="logo/log-out (1) 1.png" alt=""></a>
+        </div>
+
+        <section class="wallets-section">
+            <div class="section-header">
+                <h2>Добро пожаловать, Alex Adams!</h2>
+                <a class="link" href="#">alexadams@google.com</a>
+                
+                <h2>Мои кошельки</h2>
+                <a class="link" href="#">Смотреть все кошельки</a>
+            </div>
+            <div class="wallets" id="wallets-container"></div>
+        </section>
+
+        <section class="transactions-section">
+            <div class="section-header">
+            <a class="link" href="#">Смотреть все кошельки</a>
+                
+                <h2>Последние транзакции</h2>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Кошелёк</th>
+                            <th>Категория</th>
+                            <th>Сумма</th>
+                            <th>Дата</th>
+                        </tr>
+                    </thead>
+                    <tbody id="transactions-body"></tbody>
+                </table>
+            <a class="link" href="#">Смотреть все оплаты</a>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
