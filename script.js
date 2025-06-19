@@ -1,4 +1,3 @@
-/* ─── данные и отрисовка кошельков без транзакций ────────────── */
 const wallets = [
   { name: "Visa", current: "RUB", class: "red" },
   { name: "Visa", current: "RUB", class: "purple" },
